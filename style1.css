@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Playwrite+AU+VIC:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    padding:0 ;
+    margin:0 ;
+    box-sizing:border-box ;
+    font-family:  'Playfair Display', serif;
+}
+body, html{
+    width:100% ;
+    height: 100%;
+    font-family: "Birthstone", cursive;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#E6FF94;
+    font-family: "Birthstone", cursive;
+    
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: #FF9EAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px black;
+    
+}
+#nav-prt2{
+    display: flex;
+    background-color: #FF9EAA;
+    width:90%;
+    align-items: center;
+    justify-content: space-between;
+    border: 10px black;
+    
+}
+#nav-prt2 img{
+    width:220px;
+}
+
+#nav h5{
+    font-size: 28px;
+    text-transform: capitalize;
+    color: black;
+    font-family: "Abril Fatface", serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+#nav h5:hover{
+    text-decoration: underline;
+    text-shadow: 0 0 30px rgb(158, 74, 74);
+}
+#content{
+    display: flex;
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: #FFD0D0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#content2{
+    display:flex;
+    width: 100%;
+    background-color: #FFD0D0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#left2{
+    height: 594px;
+    width:33.3%;
+    
+}
+#center{
+    height: 594px;
+    width:33.4%;
+    background-color:#006769;
+}
+#right2{
+    height: 594px;
+    width:33.3%;
+    background-color:#006769;
+}
+
+#text1{
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    color: #FFD0D0;
+    text-align: left;
+    font-size:x-large;
+}
+#Text1 :hover{
+    cursor: pointer;
+    text-decoration: dotted;
+    text-shadow : 0 0 30px #FFD0D0;
+}
+#text2{
+    position: absolute;
+    bottom:0;
+    color: #FFD0D0;;
+    text-align: left;
+    font-size:x-large;
+    margin: 10px;
+}
+#text3{
+    position: absolute;
+    bottom:0;
+    color: #FFD0D0;
+    text-align: left;
+    font-size:x-large;
+    margin: 10px;
+}
+#box1{
+    
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color: rgba(189, 125, 172, 0.5);
+    color: white;
+    padding: 100px;
+    width: 33.3%;
+
+}
+#container{
+    width: 90%;
+    max-width: 1000px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#left{
+    width: 60%;
+    height: 650px;
+    background-image: url(./main.jpg);
+    border-radius: 10px;
+
+}
+#right{
+    width: 50%;
+    height: 500px;
+    background-color:#F9F9E0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: -250px;
+    top:2000px;
+}
+#right h1{
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: "Birthstone", cursive;}
+#slogan{
+    margin: 10px 0;
+    font-style: italic;
+    font-family: "Abril Fatface", serif;
+
+}
+#Description{
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 10px 0;
+    font-family: "Great Vibes", cursive;
+    
+    
+}
